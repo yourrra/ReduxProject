@@ -1,0 +1,58 @@
+.Wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 25px;
+  background-color: rgb(217, 217, 217);
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  min-width: 150px;
+  background-color: rgb(232, 204, 121);
+  padding: 5px 10px;
+  color: black;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.Counter {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding: 6px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.Button-Wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.Card-Wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Card {
+  padding: 4px;
+  background-color: rgb(237, 224, 183);
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
